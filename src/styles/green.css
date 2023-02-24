@@ -1,0 +1,84 @@
+/* Green Panel colors */
+:root {
+    --green-normal: rgba(67, 149, 105, 0.637);
+    --green-gray: #2ed5b4;
+    --green-light: #1da482;
+    --bs-dark-rgb: 35, 50, 57 !important;
+}
+
+::selection {
+    background-color: var(--green-normal) !important;
+}
+
+.text-success {
+    color: var(--green-gray) !important;
+}
+
+.navbar label {
+    font-size: 0.8rem !important;
+    margin-bottom: 10px;
+}
+
+.navbar a.nav-link {
+    display: block;
+    color: #ccc;
+    width: 100%;
+    font-size: 0.8rem !important;
+    padding: 0.6rem 1rem !important;
+    transition: all 0s ease-in;
+}
+
+.dropdown-item {
+    display: flex !important;
+    font-size: 0.8rem !important;
+    color: #ccc !important;
+    align-items: center;
+    align-self: center;
+}
+
+.navbar a.nav-link:focus,
+.navbar a.nav-link:active,
+.dropdown-item:focus,
+.dropdown-item:active {
+    color: var(--green-light) !important;
+    background-color: transparent !important;
+}
+
+.link-green-hover:hover,
+.link-green-hover:active,
+.link-green-hover:focus,
+.dropdown-item:hover,
+.link-green-hover.active {
+    color: #fff !important;
+    background-color: transparent !important;
+}
+
+.show a {
+    color: #ccc !important;
+}
+
+.bg-dark,
+.dropdown-menu {
+    background-color: #233239 !important;
+    border-radius: 0px !important;
+}
+
+.dropdown-menu {
+    box-shadow: 0px 10px 10px #eee !important;
+}
+
+.navbar input.form-control {
+    background-color: rgba(0, 0, 0, 0.1) !important;
+    color: #fff !important;
+    border: 1px solid rgba(17, 17, 17, 0.636) !important;
+    border-radius: 4px !important;
+    box-shadow: none !important;
+}
+
+.navbar input.form-control::placeholder {
+    color: #999 !important;
+}
+
+.navbar input.form-control:focus {
+    background-color: rgba(0, 0, 0, 0.3) !important;
+}
